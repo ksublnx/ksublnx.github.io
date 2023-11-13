@@ -8,7 +8,7 @@ tags = ["rust-lang"]
 The following code compiles unmolested, and panics at runtime. The out-of-bounds
 accesses in lines 11 and 15 are not flagged at compile time.
 
-```rust {linenos=true, linenostart=1, hl_lines=[11, 15], style=tango}
+```rust {linenos=true, linenostart=1, style=autumn}
 fn main () -> ()
 {
     let xs: [i32; 5] = [1, 2, 3, 4, 5];
@@ -39,7 +39,7 @@ index out of bounds: the len is 5 but the index is 5
 ## Do bounds checks work the same way with other collections, say `Vec<T>`?
 Let's find out.
 
-```rust {linenos=true, linenostart=1 style=tango}
+```rust {linenos=true, linenostart=1, style=autumn}
 use std::ops::Range;
 
 fn main() -> ()

@@ -20,7 +20,7 @@ However:
 
  (3) The mutation can _only_ happen within an `unsafe` block.
 
-```rust {linenos=true, linenostart=1, hl_lines=[7,12,"17-21"], style=tango}
+```rust {linenos=true, linenostart=1, style=autumn}
 let x: i32 = 42;
 let px: *const i32 = &x as *const i32;
 
