@@ -1,0 +1,16 @@
+baseURL = 'https://ksublnx.github.io'
+languageCode = 'en-us'
+title = 'Musings from the Little End'
+theme = 'maverick'
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/pages/about"
+    weight = "-110"
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = -200
